@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:background="#99140E13"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="faktur"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="18dp"
+        android:text="kode barang"
+        android:textSize="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/etKodeBarang"
+        android:inputType="none"
+        android:lines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="jumlah barang"
+        android:textSize="22dp"
+        android:layout_marginTop="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/etJumlahBarang"
+        android:inputType="numberDecimal"
+        android:lines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_margin="15dp"
+        android:textSize="18dp"
+        android:id="@+id/btnTotal"
+        android:text="total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/tvJenisBarang"
+        android:text="jenis_barang"
+        android:textSize="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="18dp"
+        android:textStyle="bold"
+        android:id="@+id/tvHargaBarang"
+        android:text="harga_barang"
+        android:textSize="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="18dp"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:id="@+id/tvTotalHarga"
+        android:text="Total Harga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:id="@+id/tvDiskon"
+        android:text="diskon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:id="@+id/tvJumlahBayar"
+        android:text="Jumlah Bayar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#68003CD4"
+    android:padding="50dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="match_parent"
+        android:layout_height="232dp"
+        android:src="@drawable/gambar1" />
+
+    <EditText
+        android:drawableStart="@drawable/ic_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etUsername"
+        android:hint="@string/username"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:onClick="clickUsername"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:drawableStart="@drawable/ic_password"
+        android:drawableEnd="@drawable/ic_show_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etPassword"
+        android:hint="@string/password"
+        android:onClick="clickPassword"
+        android:textStyle="bold"
+        android:inputType="textPassword"
+        android:textSize="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLogin"
+        android:text="@string/login"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:onClick="clickLogin"/>
+
+    <TextView
+        android:text="@string/forget_password"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:onClick="clickForgetPasssword"
+        android:gravity="center"
+        android:id="@+id/tvFogetpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="@string/create_a_new_account"
+        android:id="@+id/tvCreateAccount"
+        android:textSize="22dp"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+
+</LinearLayout>
